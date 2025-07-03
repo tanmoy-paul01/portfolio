@@ -1,0 +1,251 @@
+.hero{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 10% 125px 10%;
+    background: linear-gradient(180deg, #111213 50%, #2e3950 200%);
+}
+.hero-item1{
+    padding: 20px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+/* @keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+
+.hero h1{
+    width: 100%;
+}
+.name{
+    font-size: 25px;
+}
+.my-name{
+    font-size: 45px;
+}
+.changing-text {
+    /* font-size: 25px; */
+    color: #08f787; /* Customize as needed */
+    font-weight: 500;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hero p{
+    width: 100%;
+    min-height: 200px;
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+
+
+/* ----------Connect button--------- */ 
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.hero-connect-button {
+    font-size: 1em;
+    padding: 0.6em 0.8em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #000000b4;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-connect {
+    position: relative;
+    padding: 3px;
+    background: linear-gradient(90deg, #03a9f4, #08f787);
+    border-radius: 0.5em;
+    transition: all 0.4s ease;
+    z-index: 0;
+}
+
+.hero-connect::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+    z-index: -1;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+    background: linear-gradient(90deg, #03a9f4, #08f787);
+}
+
+.hero-connect:hover::before {
+    filter: blur(0.7em);
+}
+.hero-connect:active::before {
+    filter: blur(0.2em);
+}
+.hero-anchor-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* ---------hero image-------- */
+.hero-item2{
+    height: 430px;
+    width: 430px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #03a9f4, #08f787);
+    animation: fadeInScale 1s ease-out;
+}
+
+/* @keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) rotate(-3deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+} */
+
+.hero-item2 .glow{
+    --glow-blur: 1.5;
+}
+.hero img{
+    height: 422px;
+    width: 422px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.hero img:hover{
+    height: 432px;
+    width: 432px;
+}
+.hero img:active{
+    height: 425px;
+    width: 425px;
+}
+
+
+
+
+
+@media(max-width: 1250px){
+    .hero{
+        align-items:inherit;
+        padding: 100px 15px 60px 15px;
+    }
+    .hero-item2{
+        height: 400px;
+        width: 400px;
+    }
+    .hero img{
+        height: 395px;
+        width: 395px;
+    }
+    .hero img:hover{
+        height: 400px;
+        width: 400px;
+    }
+    .hero img:active{
+        height: 390px;
+        width: 390px;
+    }
+}
+
+@media(max-width: 1000px){
+    .hero{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 10px 50px 10px;
+    }
+    .hero-item1{
+        padding: 25px 20px 0 20px;
+        max-width: 700px;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .my-name{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .changing-text {
+        font-size: 30px;
+    }
+    .hero p{
+        font-size: 20px;
+        line-height: 33px;
+        margin: 30px 0;
+        min-height: 0;
+    }
+    .hero-action{
+        margin-top: 0px;
+    }
+    .hero-action{
+        justify-content: center;
+    }
+
+    .hero-item2{
+        height: 230px;
+        width: 230px;
+        background: none;
+    }
+    .hero img{
+        height: 230px;
+        width: 230px;
+        border: 3px solid white;
+    }
+    .hero img:hover{
+        height: 230px;
+        width: 230px;
+    }
+    .hero img:active{
+        height: 230px;
+        width: 230px;
+    }
+}
+
+@media(max-width: 600px){
+    .name{
+        font-size: 20px;
+    }
+    .my-name{
+        font-size: 35px;
+    }
+    .changing-text {
+        font-size: 25px;
+    }
+    .hero p{
+        font-size: 20px;
+        line-height: 33px;
+        margin: 20px 0;
+        min-height: 0;
+    }
+
+}

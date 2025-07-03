@@ -1,0 +1,433 @@
+.skills{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0 10% 0 5%;
+    flex-direction: column;
+    background-color: #111213;
+}
+
+.skill-item1 h1{
+    font-size: 60px;
+    background: linear-gradient(270deg, #B0B0B0 10%, #03a9f4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-item2{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.frame{
+    display: grid;
+    grid-auto-columns: 96px;
+    grid-gap: 24px;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+    position: relative;
+    white-space: nowrap;
+    grid-auto-flow: column;
+}
+.frame2{
+    margin-left: 24px;
+}
+.frame4{
+    margin-left: 24px;
+}
+
+.frame div{
+    width: 96px;
+    height: 96px;
+    border-radius: 20%;
+    background: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    transition: 0.8s ;
+}
+.frame div img{
+    height: 50px;
+    width: 50px;
+}
+.frame1 div{
+    background: linear-gradient(180deg, #111213 10%, #181818 100%);
+}
+.frame5 div{
+    background: linear-gradient(180deg,  #181818 10%, #111213 100%);
+}
+
+.frame_active{
+    border: 1px solid rgba(50, 50, 53, 0.7);
+}
+.frame_inactive:hover{
+    box-shadow: 1px 1px 30px rgb(62, 62, 62);
+}
+
+.HTML_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(222, 120, 52));
+}
+.HTML_svg:hover{
+    box-shadow: 1px 1px 30px rgb(255, 102, 0);
+}
+.CSS_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(93, 149, 232));
+}
+.CSS_svg:hover{
+    box-shadow: 1px 1px 30px rgb(0, 102, 255);
+}
+.React_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(6, 182, 209));
+}
+.React_svg:hover{
+    box-shadow: 1px 1px 30px rgb(0, 221, 255);
+}
+.Javascript_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(161, 127, 3));
+}
+.Javascript_svg:hover{
+    box-shadow: 1px 1px 30px rgb(255, 200, 0);
+}
+.Node_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(35, 168, 2));
+}
+.Node_svg:hover{
+    box-shadow: 1px 1px 30px rgb(170, 255, 0);
+}
+.Express_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(255, 255, 255));
+}
+.Express_svg:hover{
+    box-shadow: 1px 1px 30px rgb(255, 255, 255);
+}
+.SQL_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(0, 102, 255));
+}
+.SQL_svg:hover{
+    box-shadow: 1px 1px 30px rgb(0, 255, 242);
+}
+.Java_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(3, 153, 208));
+}
+.Java_svg:hover{
+    box-shadow: 1px 1px 30px rgb(0, 187, 255);
+}
+.Python_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(2, 73, 155));
+}
+.Python_svg:hover{
+    box-shadow: 1px 1px 30px rgb(0, 119, 255);
+}
+.C_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(2, 87, 156));
+}
+.C_svg:hover{
+    box-shadow: 1px 1px 30px rgb(0, 140, 255);
+}
+
+
+
+
+.skill-item2-right{
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.skill-element{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.skill-element a{
+    text-decoration: none;
+    color: white;
+}
+.skill-element p{
+    font-size: 17px;
+    transition: all 0.2s;
+}
+.skill-element p:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.skill-element hr{
+    height: 7px;
+    width: 50%;
+    margin: 10px 0;
+    background: linear-gradient(90deg, #03a9f4, #08f787);
+    border: none;
+    border-radius: 50px;
+}
+.skill-element div{
+    display: flex;
+    align-items: center;
+}
+.skill-element div p{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+@media(max-width: 1200px){
+    .skills{
+        padding: 0 24px;
+    }
+    .frame{
+        grid-auto-columns: 80px;
+        grid-gap: 20px;
+    }
+    .frame div{
+        width: 80px;
+        height: 80px;
+    }
+    .frame div img{
+        height: 45px;
+        width: 45px;
+    }
+    .skill-item2-right{
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 1000px){
+    .skills{
+        padding: 0 30px;
+    }
+    .skill-item2{
+        flex-direction: column;
+    }
+    .frame{
+        grid-auto-columns: 96px;
+        grid-gap: 24px;
+        margin-bottom: 24px;
+    }
+    .frame2{
+        margin-left: 24px;
+    }
+    .frame4{
+        margin-left: 24px;
+    }
+    .frame div{
+        width: 96px;
+        height: 96px;
+    }
+    .skill-item2-right{
+        width: 80%;
+        margin-left: 50px;
+    }
+
+
+
+    .HTML_svg{
+        box-shadow: 0px 0px 8px rgb(255, 102, 0);
+    }
+    .CSS_svg{
+        box-shadow: 0px 0px 8px rgb(0, 102, 255);
+    }
+    .React_svg{
+        box-shadow: 0px 0px 8px rgb(0, 221, 255);
+    }
+    .Javascript_svg{
+        box-shadow: 0px 0px 8px rgb(255, 200, 0);
+    }
+    .Node_svg{
+        box-shadow: 0px 0px 8px rgb(170, 255, 0);
+    }
+    .Express_svg{
+        box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    }
+    .SQL_svg{
+        box-shadow: 0px 0px 8px rgb(0, 255, 242);
+    }
+    .Java_svg{
+        box-shadow: 0px 0px 8px rgb(0, 187, 255);
+    }
+    .Python_svg{
+        box-shadow: 0px 0px 8px rgb(0, 119, 255);
+    }
+    .C_svg{
+        box-shadow: 0px 0px 8px rgb(0, 140, 255);
+    }
+}
+
+@media(max-width: 800px){
+    .skills{
+        padding: 0 30px;
+    }
+    .frame{
+        grid-auto-columns: 90px;
+        grid-gap: 15px;
+        margin-bottom: 15px;
+    }
+    .frame2{
+        margin-left: 20px;
+    }
+    .frame4{
+        margin-left: 20px;
+    }
+    .frame div{
+        width: 90px;
+        height: 90px;
+    }
+    .frame div img{
+        height: 38px;
+        width: 38px;
+    }
+    .skill-item2-right{
+        width: 80%;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 750px){
+    .skills{
+        padding: 0 30px;
+    }
+    .frame{
+        grid-auto-columns: 75px;
+        grid-gap: 15px;
+        margin-bottom: 15px;
+    }
+    .frame2{
+        margin-left: 20px;
+    }
+    .frame4{
+        margin-left: 20px;
+    }
+    .frame div{
+        width: 75px;
+        height: 75px;
+    }
+    .frame div img{
+        height: 38px;
+        width: 38px;
+    }
+    .skill-item2-right{
+        width: 80%;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .skills{
+        padding: 0 20px;
+    }
+    .frame{
+        grid-auto-columns: 70px;
+    }
+    .frame div{
+        width: 70px;
+        height: 70px;
+    }
+    .frame div img{
+        height: 35px;
+        width: 35px;
+    }
+    .skill-item2-right{
+        margin-left: 10px;
+    }
+    .skill-item1 h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 550px){
+    .frame{
+        grid-auto-columns: 60px;
+        grid-gap: 15px;
+        margin-bottom: 15px;
+    }
+    .frame2{
+        margin-left: 20px;
+    }
+    .frame4{
+        margin-left: 20px;
+    }
+    .frame div{
+        width: 60px;
+        height: 60px;
+    }
+    .frame div img{
+        height: 33px;
+        width: 33px;
+    }
+}
+
+@media(max-width: 490px){
+    .frame{
+        grid-auto-columns: 50px;
+    }
+    .frame div{
+        width: 50px;
+        height: 50px;
+    }
+    .frame div img{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media(max-width: 440px){
+    .frame1{
+        margin-left: -50px;
+    }
+    .frame2{
+        margin-left: -20px;
+    }
+    .frame3{
+        margin-left: -50px;
+    }
+    .frame4{
+        margin-left: -20px;
+    }
+    .frame5{
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 400px){
+    .frame1{
+        margin-left: -70px;
+    }
+    .frame2{
+        margin-left: -60px;
+    }
+    .frame3{
+        margin-left: -75px;
+    }
+    .frame4{
+        margin-left: -60px;
+    }
+    .frame5{
+        margin-left: -70px;
+    }
+}
+
+@media(max-width: 350px){
+    .frame1{
+        margin-left: -80px;
+    }
+    .frame2{
+        margin-left: -70px;
+    }
+    .frame3{
+        margin-left: -80px;
+    }
+    .frame4{
+        margin-left: -70px;
+    }
+    .frame5{
+        margin-left: -80px;
+    }
+}

@@ -1,0 +1,246 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 170px;
+    background: transparent;
+    /* background-color: #111213; */
+    /* position: fixed; */
+}
+
+
+/* ...............Logo................. */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.logo p{
+    font-size: 25px;
+    font-weight: 700;
+    background: linear-gradient(270deg,
+    #08f787 0%,
+    #B0B0B0 33%,
+    #03a9f4 75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+.anchor-link{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.anchor-link::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #03a9f4;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition:  .3s;
+}
+.anchor-link:hover::after{
+    transform: scaleX(1);
+}
+.page-changing{
+    width: 100%;
+    height: 3.5px;
+    background: #03a9f4;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3.2px;
+}
+
+
+/* --------social Icons-------- */
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #03a9f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03a9f4;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+
+.icon-btn:hover {
+    border: 2px solid white;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Optional: Color tweaks per platform */
+.linkedin:hover {
+    background-color: #0077b5;
+    color: white;
+}
+
+.github:hover {
+    background-color: #333;
+    color: white;
+}
+
+.facebook:hover {
+    background-color: #1877f2;
+    color: white;
+}
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+}
+
+
+.nav-mob-open{
+    display: none;
+}
+.nav-mob-close{
+    display: none;
+}
+
+
+
+@media(max-width: 1250px){
+    .navbar{
+        padding: 20px 40px;
+    }
+    .nav-menu{
+        gap: 40px;
+    }
+}
+
+@media(max-width: 1000px){
+    .navbar{
+        padding: 20px 15px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .logo p{
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .icon-btn {
+        width: 38px;
+        height: 38px;
+    }
+    .nav-mob-open{
+        display: block;
+        width: 30px;
+        right: 30px;
+    }
+    .nav-mob-open:hover{
+        cursor: pointer;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        left: 80px;
+        top: 5px;
+        width: 15px;
+    }
+    .nav-mob-close:hover{
+        cursor: pointer;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 70px;
+        gap: 10px;
+        background-color: #000000;
+        padding: 0 20px 20px 20px;
+        z-index: 2;
+        transition: right 0.5s;
+        right: 50px;
+        margin-right: 15px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .nav-menu li{
+        font-size: 17px;
+        flex-direction: row;
+    }
+
+
+    .linkedin {
+        background-color: #0077b5;
+        border-color: white;
+        color: white;
+    }
+    
+    .github {
+        background-color: #333;
+        border-color: white;
+        color: white;
+    }
+    
+    .facebook {
+        background-color: #1877f2;
+        border-color: white;
+        color: white;
+    }
+    
+    .instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        border-color: white;
+        color: white;
+    }
+}
+
+@media(max-width: 550px){
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    .logo p{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .icon-btn {
+        width: 30px;
+        height: 30px;
+    }
+    .nav-mob-close{
+        left: 75px;
+        top: 5px;
+        width: 13px;
+    }
+    .nav-menu li{
+        font-size: 15px;
+    }
+}
