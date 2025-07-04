@@ -11,6 +11,7 @@ import Footer from './components/Footer/footer'
 const App = () => {
   return (
     <div>
+      <div>tanmoy</div>
       <Navbar />
       <Hero />
       <About />
@@ -20,6 +21,7 @@ const App = () => {
       <Footer/>
     </div>
   )
+
 }
 
 export default App
