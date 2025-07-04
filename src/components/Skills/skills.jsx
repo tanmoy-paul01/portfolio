@@ -68,7 +68,7 @@ return (
                     <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target='_blank'>HTML & CSS</a></p>
                     <div>
                         <hr style={{ width: "80%" }} />
-                        <p>50%</p>
+                        <p>80%</p>
                     </div>
                 </div>
                 <div className="skill-element">
