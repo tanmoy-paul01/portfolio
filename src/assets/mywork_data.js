@@ -8,14 +8,14 @@ import project2_img from '../assets/project_2.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
+        w_name:"Calculator",
         w_img: project1_img,
         w_Git_link: "https://github.com/tanmoy-paul01/Calculator",
         w_Live_link: "https://tanmoy-paul01.github.io/Calculator/"
     },
     {
         w_no:2,
-        w_name:"Web design",
+        w_name:"Tic-Tac-Toe",
         w_img: project2_img,
         w_Git_link: "https://github.com/tanmoy-paul01/Tic-Tac-Toe-Web-app",
         w_Live_link: "https://tanmoy-paul01.github.io/Tic-Tac-Toe-Web-app/"
