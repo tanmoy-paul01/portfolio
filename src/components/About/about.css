@@ -38,7 +38,7 @@
     overflow: hidden;
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    background-color: white;
+    background-color: #08f787;
     animation: fadeInScale 1s ease-out;
 }
 .about-left img{
