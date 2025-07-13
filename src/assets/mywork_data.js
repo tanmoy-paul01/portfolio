@@ -33,7 +33,7 @@ const mywork_data = [
     {
         w_no: 1,
         w_name: "Calculator",
-        w_title: "This Calculator project is a responsive web application built using HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, and division. With a clean user interface and smooth button interactions, it’s designed for quick calculations on both desktop and mobile devices. Simple, efficient, and user-friendly.",
+        w_title: "This Calculator project is a responsive web application built using HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication, and division. With a clean user interface and smooth button interactions, it’s designed for quick calculations on both desktop and mobile devices.",
         w_img: project1_img,
         w_Git_link: "https://github.com/tanmoy-paul01/Calculator",
         w_Live_link: "https://tanmoy-paul01.github.io/Calculator/"
