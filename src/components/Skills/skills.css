@@ -83,6 +83,12 @@
 .CSS_svg:hover{
     box-shadow: 1px 1px 30px rgb(0, 102, 255);
 }
+.Tailwind_svg img{
+    filter: drop-shadow(1px 1px 8px rgb(27, 117, 252));
+}
+.Tailwind_svg:hover{
+    box-shadow: 1px 1px 30px rgb(80, 176, 255);
+}
 .React_svg img{
     filter: drop-shadow(1px 1px 8px rgb(6, 182, 209));
 }

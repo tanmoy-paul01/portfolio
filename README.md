@@ -1,16 +1,37 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! Built with **React.js**, this website showcases my journey, skills, projects, and achievements as a web developer and tech enthusiast.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Visit My Portfolio](https://my-portfolio-200.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# portfolio
->>>>>>> 943807b55a88bd5aaacd70344bd0b28637fd1b3d
+## 🛠️ Tech Stack
+
+- ⚛️ **React.js**
+- 🎨 **CSS** 
+- 💅 **Styled Components**
+- 🔄 **React Router DOM**
+- ☁️ **Netlify** (for deployment)
+- 📄 **Markdown** (for this README)
+
+---
+
+## 📁 Features
+
+- 🖼️ Responsive and modern UI
+- 🧭 Navigation with smooth scroll
+- 🧑‍💻 Project showcase with links
+- 📫 Contact form with validation
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/tanmoy-paul01/portfolio.git
+cd portfolio
+npm install
+npm start

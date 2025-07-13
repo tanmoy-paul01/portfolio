@@ -3,6 +3,7 @@ import './skills.css'
 
 import HTML_svg from '../../assets/html.svg'
 import CSS_svg from '../../assets/css.svg'
+import Tailwind_svg from '../../assets/tailwind.svg'
 import React_svg from '../../assets/react.svg'
 import Javascript_svg from '../../assets/javascript.svg'
 import Node_svg from '../../assets/nodejs.svg'
@@ -31,9 +32,9 @@ return (
                 </div>
                 <div className="frame2 frame">
                     <div className='frame_inactive'></div>
-                    <div className='frame_inactive'></div>
                     <div className='HTML_svg frame_active'><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target='_blank'><img src={HTML_svg} alt="" /></a></div>
                     <div className='CSS_svg frame_active'><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target='_blank'><img src={CSS_svg} alt="" /></a></div>
+                    <div className='Tailwind_svg frame_active'><a href="https://tailwindcss.com/" target='_blank'><img src={Tailwind_svg} alt="" /></a></div>
                     <div className='React_svg frame_active'><a href="reactjs.org)" target='_blank'><img src={React_svg} alt="" /></a></div>
                     <div className='frame_inactive'></div>
                 </div>
@@ -69,6 +70,13 @@ return (
                     <div>
                         <hr style={{ width: "80%" }} />
                         <p>80%</p>
+                    </div>
+                </div>
+                <div className="skill-element">
+                    <p><a href="https://tailwindcss.com/" target='_blank'>Tailwind CSS</a></p>
+                    <div>
+                        <hr style={{ width: "60%" }} />
+                        <p>60%</p>
                     </div>
                 </div>
                 <div className="skill-element">
