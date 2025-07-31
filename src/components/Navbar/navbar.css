@@ -24,10 +24,11 @@
 .logo p{
     font-size: 25px;
     font-weight: 700;
-    background: linear-gradient(270deg,
+    /* background: linear-gradient(270deg,
     #08f787 0%,
     #B0B0B0 33%,
-    #03a9f4 75%);
+    #03a9f4 75%); */
+    background-color: #03a9f4;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -38,7 +39,7 @@
     align-items: center;
     list-style: none;
     gap: 60px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .anchor-link{
     position: relative;

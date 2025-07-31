@@ -20,10 +20,16 @@ const about = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>
-                            Hello! I'm Tanmoy Paul, a fourth-year IT student and passionate Full Stack Web Developer with solid problem-solving skills.<br></br>
-                            I specialize in building interactive and performance-optimized web applications using React.js, Node.js, Express.js, HTML, and CSS. My strength lies in Data Structures & Algorithms, which I regularly practice using Java to improve my logical thinking and coding efficiency.<br></br>
-                            I'm also familiar with Python, C, and relational databases like MySQL and PostgreSQL. Whether it’s crafting a clean UI or developing RESTful APIs, I enjoy the process of turning ideas into code.<br></br>
-                            I’m actively seeking opportunities to apply my skills in real-world projects and collaborate with innovative teams.
+                            I am a final-year B.Tech Information Technology student at JIS College of Engineering with a strong foundation
+                            in full-stack web development, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js), SQL, Java,
+                            and TailwindCSS. I enjoy building dynamic, responsive, and performance-optimized web applications with clean UI and
+                            efficient backend systems. My problem-solving skills are backed by a 5⭐ Java badge on HackerRank and a solid
+                            understanding of Data Structures and Algorithms.
+                            <br /><br />
+                            Beyond academics, I’ve participated in multiple hackathons, including the Smart India Hackathon (SIH), where
+                            I developed real-world solutions under pressure. These experiences have enhanced my teamwork, critical thinking,
+                            and adaptability. I'm currently seeking internship or full-time roles to grow professionally and contribute to
+                            impactful, tech-driven projects.
                         </p>
                     </div>
                     <div className="about-action">

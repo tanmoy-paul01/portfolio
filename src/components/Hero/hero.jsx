@@ -31,7 +31,9 @@ const Hero = () => {
                 </h1>
         
                 <p>
-                    I'm a fourth-year student specializing in Full Stack Web development with strong Java and DSA skills. I've built responsive, user-friendly web applications, including a robust e-commerce site.
+                    I’m a passionate Full Stack Web Developer and final-year IT student, skilled in the MERN stack, Java, and SQL.
+                    I build responsive, scalable web applications and love solving real-world problems through code. Currently seeking
+                    exciting opportunities to apply my skills in dynamic, growth-focused tech environments.
                 </p>
                 
                 <div className="hero-action">
