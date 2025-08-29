@@ -37,7 +37,7 @@ const about = () => {
                             <button className="about-resume-button">
                                 <a
                                     className='about-resume-anchor'
-                                    href='https://drive.google.com/file/d/1R2KEz-K3k_c2fn8DqvTh1W450uj6GHyh/view?usp=sharing'
+                                    href='https://drive.google.com/file/d/1Hu2Og6AOXRXfN7W2KZVfo9fhg8FR4y_R/view?usp=sharing'
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     My Resume
